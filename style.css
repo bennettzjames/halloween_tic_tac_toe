@@ -1,0 +1,80 @@
+
+h1 {
+	background-color: #FA8B0C;
+	text-align: center;
+}
+
+
+body {
+	background-image: url("./img/moon.jpg");
+	background-size: 100%;
+}
+
+.grid{
+	float: center;
+	height: 308px;
+	width: 308px;
+	border: 1px solid white;
+	margin: 50px;
+
+
+
+}
+[class*='col-'] {
+  float: left;
+}
+.col-1{
+	/*float: left;*/
+	width: 33.33%;
+}
+.col-2{
+	/*float: center;*/
+	width: 33.33%;
+}
+.col-3{
+	/*float: right;*/
+	width: 33.33%;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: block;
+	
+}
+
+.x-box{
+	font-size: 100px;
+	background-color: #FA8B0C;
+	color: black;
+}
+
+.o-box{
+	font-size: 100px;
+	background-color: black;
+	color: #FA8B0C;
+}
+
+
+
+
+#reset-button {
+	background-color: #FA8B0C;
+	font-size: 22px;
+	font-weight: bold;
+	width: 200px;
+	height: 60px;
+	margin-left: 100px;
+}
+body {
+	margin: 0px;
+}
+
+.whosTurn {
+	color: white;
+}
